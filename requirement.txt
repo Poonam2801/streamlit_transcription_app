@@ -1,4 +1,14 @@
+# Core
 streamlit>=1.35.0
-openai-whisper>=20231117
 yt-dlp>=2024.1.0
-torch>=2.0.0
+
+# Apple Silicon — GPU accelerated (M1/M2/M3)
+mlx>=0.16.0
+mlx-whisper>=0.3.0
+
+# Mac menu bar app
+rumps>=0.4.0
+
+# CPU fallback — uncomment if mlx-whisper doesn't work
+# openai-whisper>=20231117
+# torch>=2.0.0
